@@ -3,14 +3,14 @@
 #include <FastLED.h>
 
 // WiFi credentials
-const char* ssid = "Stuff";
-const char* password = "1.WeCanWorkItOut";
+const char* ssid = "WiFi SSID";
+const char* password = "WiFi Password";
 
 // MQTT Broker settings
-const char* mqtt_server = "192.168.1.148";
+const char* mqtt_server = "Broker Address";
 const int mqtt_port = 1883;
-const char* mqtt_user = "moorviewaddon";
-const char* mqtt_password = "MarSarPop";
+const char* mqtt_user = "mqtt username";
+const char* mqtt_password = "mqtt password";
 
 // Pin definitions
 #define NEOPIXEL_PIN 23
